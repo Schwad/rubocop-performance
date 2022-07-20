@@ -14,6 +14,7 @@ gem 'rubocop-rspec', '~> 2.9.0'
 gem 'simplecov'
 gem 'test-queue'
 gem 'yard', '~> 0.9'
+gem 'pry-byebug'
 
 local_gemfile = File.expand_path('Gemfile.local', __dir__)
 eval_gemfile local_gemfile if File.exist?(local_gemfile)
