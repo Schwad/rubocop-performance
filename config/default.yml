@@ -288,6 +288,12 @@ Performance/Size:
   Enabled: true
   VersionAdded: '0.30'
 
+Performance/SlowGlob:
+  Description: >-
+                  `**` is orders of magnitude slower than `{*,*/*}` in large directories
+  Enabled: true
+  VersionAdded: '<<next>>'
+
 Performance/SortReverse:
   Description: 'Use `sort.reverse` instead of `sort { |a, b| b <=> a }`.'
   Enabled: 'pending'
